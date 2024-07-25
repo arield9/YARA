@@ -3,7 +3,7 @@ rule greatness_kit{
 	meta:
 		Author = "Ariel Davidpur"
 		Description = "Detects indicators for greatness phishing kit in source code"
-		date = "July 25th 2024"
+		date = "2024-07-24"
 	
 	strings:
 		$s1 = /\/admin\/js\/[a-z]{2}\.php/i
